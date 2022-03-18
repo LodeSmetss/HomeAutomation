@@ -1,0 +1,913 @@
+{
+    "Kelderverlichting": {
+        "conditions": {
+            "0": {
+                "device": "Drukknop Keldertrap",
+                "command": "press_once",
+                "inputParams": {}
+            },
+            "representation": "0"
+        },
+        "actions": [
+            {
+                "device": "Kelderverlichting",
+                "action": "switch_lamp",
+                "outputParams": {}
+            }
+        ]
+    },
+    "Verlichting Repetitiekot": {
+        "conditions": {
+            "0": {
+                "device": "Drukknop Repetitiekot",
+                "command": "press_once",
+                "inputParams": {
+                    "buttons": "lb"
+                }
+            },
+            "representation": "0"
+        },
+        "actions": [
+            {
+                "device": "Verlichting Repetitiekot",
+                "action": "switch_lamp",
+                "outputParams": {}
+            }
+        ]
+    },
+    "Keukenverlichting": {
+        "conditions": {
+            "0": {
+                "device": "Drukknop Keuken",
+                "command": "press_once",
+                "inputParams": {
+                    "buttons": "lb"
+                }
+            },
+            "1": {
+                "device": "Drukknop Eetkamer Raam",
+                "command": "press_once",
+                "inputParams": {
+                    "buttons": "lb"
+                }
+            },
+            "2": {
+                "device": "Drukknop Centraal",
+                "command": "press_once",
+                "inputParams": {
+                    "buttons": "rb"
+                }
+            },
+            "representation": "0+1+2"
+        },
+        "actions": [
+            {
+                "device": "Keukenverlichting",
+                "action": "switch_lamp",
+                "outputParams": {}
+            }
+        ]
+    },
+    "Garageverlichting": {
+        "conditions": {
+            "0": {
+                "device": "Drukknop Garage Deur",
+                "command": "press_once",
+                "inputParams": {}
+            },
+            "1": {
+                "device": "Drukknop Garage Poort",
+                "command": "press_once",
+                "inputParams": {}
+            },
+            "representation": "0+1"
+        },
+        "actions": [
+            {
+                "device": "Garageverlichting",
+                "action": "switch_lamp",
+                "outputParams": {}
+            }
+        ]
+    },
+    "Sasverlichting": {
+        "conditions": {
+            "0": {
+                "device": "Drukknop Sas",
+                "command": "press_once",
+                "inputParams": {}
+            },
+            "1": {
+                "device": "Drukknop Keuken",
+                "command": "press_once",
+                "inputParams": {
+                    "buttons": "lo"
+                }
+            },
+            "representation": "0+1"
+        },
+        "actions": [
+            {
+                "device": "Sasverlichting",
+                "action": "switch_lamp",
+                "outputParams": {}
+            }
+        ]
+    },
+    "Inkomverlichting": {
+        "conditions": {
+            "0": {
+                "device": "Drukknop Living Zetel",
+                "command": "press_once",
+                "inputParams": {
+                    "buttons": "rb"
+                }
+            },
+            "representation": "0"
+        },
+        "actions": [
+            {
+                "device": "Inkomverlichting",
+                "action": "switch_lamp",
+                "outputParams": {}
+            }
+        ]
+    },
+    "Bureauverlichting": {
+        "conditions": {
+            "0": {
+                "device": "Drukknop Bureau",
+                "command": "press_once",
+                "inputParams": {
+                    "buttons": "l"
+                }
+            },
+            "representation": "0"
+        },
+        "actions": [
+            {
+                "device": "Bureauverlichting",
+                "action": "switch_lamp",
+                "outputParams": {}
+            }
+        ]
+    },
+    "Slaapkamerverlichting_een": {
+        "conditions": {
+            "0": {
+                "device": "Drukknop Slaapkamer 1",
+                "command": "press_once",
+                "inputParams": {
+                    "buttons": "lb"
+                }
+            },
+            "1": {
+                "device": "Drukknop Bed Links Slaapkamer 1",
+                "command": "press_once",
+                "inputParams": {
+                    "buttons": "r"
+                }
+            },
+            "2": {
+                "device": "Drukknop Bed Rechts Slaapkamer 1",
+                "command": "press_once",
+                "inputParams": {
+                    "buttons": "l"
+                }
+            },
+            "representation": "0+1+2"
+        },
+        "actions": [
+            {
+                "device": "Verlichting Slaapkamer 1",
+                "action": "switch_lamp",
+                "outputParams": {}
+            }
+        ]
+    },
+    "Slaapkamerverlichting_twee": {
+        "conditions": {
+            "0": {
+                "device": "Drukknop Slaapkamer 2",
+                "command": "press_once",
+                "inputParams": {
+                    "buttons": "lb"
+                }
+            },
+            "representation": "0"
+        },
+        "actions": [
+            {
+                "device": "Verlichting Slaapkamer 2",
+                "action": "switch_lamp",
+                "outputParams": {}
+            }
+        ]
+    },
+    "Slaapkamerverlichting_drie": {
+        "conditions": {
+            "0": {
+                "device": "Drukknop Slaapkamer 3",
+                "command": "press_once",
+                "inputParams": {
+                    "buttons": "lb"
+                }
+            },
+            "representation": "0"
+        },
+        "actions": [
+            {
+                "device": "Verlichting Slaapkamer 3",
+                "action": "switch_lamp",
+                "outputParams": {}
+            }
+        ]
+    },
+    "Slaapkamerverlichting_vier": {
+        "conditions": {
+            "0": {
+                "device": "Drukknop Slaapkamer 4",
+                "command": "press_once",
+                "inputParams": {
+                    "buttons": "lb"
+                }
+            },
+            "representation": "0"
+        },
+        "actions": [
+            {
+                "device": "Verlichting Slaapkamer 4",
+                "action": "switch_lamp",
+                "outputParams": {}
+            }
+        ]
+    },
+    "Wasplaatsverlichting": {
+        "conditions": {
+            "0": {
+                "device": "Drukknop Wasplaats Centraal",
+                "command": "press_once",
+                "inputParams": {
+                    "buttons": "lb"
+                }
+            },
+            "representation": "0"
+        },
+        "actions": [
+            {
+                "device": "Wasplaatsverlichting",
+                "action": "switch_lamp",
+                "outputParams": {}
+            }
+        ]
+    },
+    "Gangverlichting": {
+        "conditions": {
+            "0": {
+                "device": "Drukknop Trap Beneden",
+                "command": "press_once",
+                "inputParams": {
+                    "buttons": "l"
+                }
+            },
+            "1": {
+                "device": "Drukknop Trap Boven",
+                "command": "press_once",
+                "inputParams": {
+                    "buttons": "r"
+                }
+            },
+            "representation": "0+1"
+        },
+        "actions": [
+            {
+                "device": "Gangverlichting",
+                "action": "switch_lamp",
+                "outputParams": {}
+            }
+        ]
+    },
+    "Badkamerverlichting": {
+        "conditions": {
+            "0": {
+                "device": "Drukknop Badkamer",
+                "command": "press_once",
+                "inputParams": {
+                    "buttons": "lb"
+                }
+            },
+            "1": {
+                "device": "Drukknop Badkamer Spiegel",
+                "command": "press_once",
+                "inputParams": {
+                    "buttons": "l"
+                }
+            },
+            "representation": "0+1"
+        },
+        "actions": [
+            {
+                "device": "Badkamerverlichting",
+                "action": "switch_lamp",
+                "outputParams": {}
+            }
+        ]
+    },
+    "Badkamerverlichting Spiegel": {
+        "conditions": {
+            "0": {
+                "device": "Drukknop Badkamer",
+                "command": "press_once",
+                "inputParams": {
+                    "buttons": "rb"
+                }
+            },
+            "1": {
+                "device": "Drukknop Badkamer Spiegel",
+                "command": "press_once",
+                "inputParams": {
+                    "buttons": "r"
+                }
+            },
+            "representation": "0+1"
+        },
+        "actions": [
+            {
+                "device": "Badkamerverlichting Spiegel",
+                "action": "switch_lamp",
+                "outputParams": {}
+            }
+        ]
+    },
+    "Rolluik Openen Slaapkamer 1": {
+        "conditions": {
+            "0": {
+                "device": "Drukknop Slaapkamer 1",
+                "command": "press_long",
+                "inputParams": {
+                    "buttons": "lb"
+                }
+            },
+            "1": {
+                "device": "Drukknop Bed Links Slaapkamer 1",
+                "command": "press_long",
+                "inputParams": {
+                    "buttons": "l"
+                }
+            },
+            "2": {
+                "device": "Drukknop Bed Rechts Slaapkamer 1",
+                "command": "press_long",
+                "inputParams": {
+                    "buttons": "l"
+                }
+            },
+            "representation": "0+1+2"
+        },
+        "actions": [
+            {
+                "device": "Rolluik Slaapkamer 1",
+                "action": "open_shutter",
+                "outputParams": {}
+            }
+        ]
+    },
+    "Rolluik Sluiten Slaapkamer 1": {
+        "conditions": {
+            "0": {
+                "device": "Drukknop Slaapkamer 1",
+                "command": "press_long",
+                "inputParams": {
+                    "buttons": "lo"
+                }
+            },
+            "1": {
+                "device": "Drukknop Bed Links Slaapkamer 1",
+                "command": "press_long",
+                "inputParams": {
+                    "buttons": "r"
+                }
+            },
+            "2": {
+                "device": "Drukknop Bed Rechts Slaapkamer 1",
+                "command": "press_long",
+                "inputParams": {
+                    "buttons": "r"
+                }
+            },
+            "representation": "0+1+2"
+        },
+        "actions": [
+            {
+                "device": "Rolluik Slaapkamer 1",
+                "action": "close_shutter",
+                "outputParams": {}
+            }
+        ]
+    },
+    "Rolluik Stoppen Slaapkamer 1": {
+        "conditions": {
+            "0": {
+                "device": "Drukknop Slaapkamer 1",
+                "command": "press_once",
+                "inputParams": {
+                    "buttons": "lblo"
+                }
+            },
+            "1": {
+                "device": "Drukknop Bed Links Slaapkamer 1",
+                "command": "press_once",
+                "inputParams": {
+                    "buttons": "lr"
+                }
+            },
+            "2": {
+                "device": "Drukknop Bed Rechts Slaapkamer 1",
+                "command": "press_once",
+                "inputParams": {
+                    "buttons": "lr"
+                }
+            },
+            "representation": "0+1+2"
+        },
+        "actions": [
+            {
+                "device": "Rolluik Slaapkamer 1",
+                "action": "stop",
+                "outputParams": {}
+            }
+        ]
+    },
+    "Rolluik Openen Slaapkamer 2": {
+        "conditions": {
+            "0": {
+                "device": "Drukknop Slaapkamer 2",
+                "command": "press_long",
+                "inputParams": {
+                    "buttons": "lb"
+                }
+            },
+            "1": {
+                "device": "Drukknop Bed Slaapkamer 2",
+                "command": "press_long",
+                "inputParams": {
+                    "buttons": "l"
+                }
+            },
+            "representation": "0+1"
+        },
+        "actions": [
+            {
+                "device": "Rolluik Slaapkamer 2",
+                "action": "open_shutter",
+                "outputParams": {}
+            }
+        ]
+    },
+    "Rolluik Sluiten Slaapkamer 2": {
+        "conditions": {
+            "0": {
+                "device": "Drukknop Slaapkamer 2",
+                "command": "press_long",
+                "inputParams": {
+                    "buttons": "lo"
+                }
+            },
+            "1": {
+                "device": "Drukknop Bed Slaapkamer 2",
+                "command": "press_long",
+                "inputParams": {
+                    "buttons": "r"
+                }
+            },
+            "representation": "0+1"
+        },
+        "actions": [
+            {
+                "device": "Rolluik Slaapkamer 2",
+                "action": "close_shutter",
+                "outputParams": {}
+            }
+        ]
+    },
+    "Rolluik Stoppen Slaapkamer 2": {
+        "conditions": {
+            "0": {
+                "device": "Drukknop Slaapkamer 2",
+                "command": "press_once",
+                "inputParams": {
+                    "buttons": "lblo"
+                }
+            },
+            "1": {
+                "device": "Drukknop Bed Slaapkamer 2",
+                "command": "press_once",
+                "inputParams": {
+                    "buttons": "lr"
+                }
+            },
+            "representation": "0+1"
+        },
+        "actions": [
+            {
+                "device": "Rolluik Slaapkamer 2",
+                "action": "stop",
+                "outputParams": {}
+            }
+        ]
+    },
+    "Rolluik Openen Slaapkamer 3": {
+        "conditions": {
+            "0": {
+                "device": "Drukknop Slaapkamer 3",
+                "command": "press_long",
+                "inputParams": {
+                    "buttons": "lb"
+                }
+            },
+            "1": {
+                "device": "Drukknop Bed Slaapkamer 3",
+                "command": "press_long",
+                "inputParams": {
+                    "buttons": "l"
+                }
+            },
+            "representation": "0+1"
+        },
+        "actions": [
+            {
+                "device": "Rolluik Slaapkamer 3",
+                "action": "open_shutter",
+                "outputParams": {}
+            }
+        ]
+    },
+    "Rolluik Sluiten Slaapkamer 3": {
+        "conditions": {
+            "0": {
+                "device": "Drukknop Slaapkamer 3",
+                "command": "press_long",
+                "inputParams": {
+                    "buttons": "lo"
+                }
+            },
+            "1": {
+                "device": "Drukknop Bed Slaapkamer 3",
+                "command": "press_long",
+                "inputParams": {
+                    "buttons": "r"
+                }
+            },
+            "representation": "0+1"
+        },
+        "actions": [
+            {
+                "device": "Rolluik Slaapkamer 3",
+                "action": "close_shutter",
+                "outputParams": {}
+            }
+        ]
+    },
+    "Rolluik Stoppen Slaapkamer 3": {
+        "conditions": {
+            "0": {
+                "device": "Drukknop Slaapkamer 3",
+                "command": "press_once",
+                "inputParams": {
+                    "buttons": "lblo"
+                }
+            },
+            "1": {
+                "device": "Drukknop Bed Slaapkamer 3",
+                "command": "press_once",
+                "inputParams": {
+                    "buttons": "lr"
+                }
+            },
+            "representation": "0+1"
+        },
+        "actions": [
+            {
+                "device": "Rolluik Slaapkamer 3",
+                "action": "stop",
+                "outputParams": {}
+            }
+        ]
+    },
+    "Rolluik Openen Slaapkamer 4": {
+        "conditions": {
+            "0": {
+                "device": "Drukknop Slaapkamer 4",
+                "command": "press_long",
+                "inputParams": {
+                    "buttons": "lb"
+                }
+            },
+            "1": {
+                "device": "Drukknop Bed Slaapkamer 4",
+                "command": "press_long",
+                "inputParams": {
+                    "buttons": "l"
+                }
+            },
+            "representation": "0+1"
+        },
+        "actions": [
+            {
+                "device": "Rolluik Slaapkamer 4",
+                "action": "open_shutter",
+                "outputParams": {}
+            }
+        ]
+    },
+    "Rolluik Sluiten Slaapkamer 4": {
+        "conditions": {
+            "0": {
+                "device": "Drukknop Slaapkamer 4",
+                "command": "press_long",
+                "inputParams": {
+                    "buttons": "lo"
+                }
+            },
+            "1": {
+                "device": "Drukknop Bed Slaapkamer 4",
+                "command": "press_long",
+                "inputParams": {
+                    "buttons": "r"
+                }
+            },
+            "representation": "0+1"
+        },
+        "actions": [
+            {
+                "device": "Rolluik Slaapkamer 4",
+                "action": "close_shutter",
+                "outputParams": {}
+            }
+        ]
+    },
+    "Rolluik Stoppen Slaapkamer 4": {
+        "conditions": {
+            "0": {
+                "device": "Drukknop Slaapkamer 4",
+                "command": "press_once",
+                "inputParams": {
+                    "buttons": "lblo"
+                }
+            },
+            "1": {
+                "device": "Drukknop Bed Slaapkamer 4",
+                "command": "press_once",
+                "inputParams": {
+                    "buttons": "lr"
+                }
+            },
+            "representation": "0+1"
+        },
+        "actions": [
+            {
+                "device": "Rolluik Slaapkamer 4",
+                "action": "stop",
+                "outputParams": {}
+            }
+        ]
+    },
+    "Livingverlichting": {
+        "conditions": {
+            "0": {
+                "device": "Drukknop Living Zetel",
+                "command": "press_once",
+                "inputParams": {
+                    "buttons": "lb"
+                }
+            },
+            "1": {
+                "device": "Drukknop Trap Beneden",
+                "command": "press_once",
+                "inputParams": {
+                    "buttons": "r"
+                }
+            },
+            "2": {
+                "device": "Drukknop Centraal",
+                "command": "press_once",
+                "inputParams": {
+                    "buttons": "lb"
+                }
+            },
+            "representation": "0+1+2"
+        },
+        "actions": [
+            {
+                "device": "Livingverlichting",
+                "action": "switch_lamp",
+                "outputParams": {}
+            }
+        ]
+    },
+    "Stopcontact Bureau": {
+        "conditions": {
+            "0": {
+                "device": "Drukknop Bureau",
+                "command": "press_once",
+                "inputParams": {
+                    "buttons": "r"
+                }
+            },
+            "representation": "0"
+        },
+        "actions": [
+            {
+                "device": "Stopcontact Bureau",
+                "action": "switch_lamp",
+                "outputParams": {}
+            }
+        ]
+    },
+    "Stopcontact Zetel Links": {
+        "conditions": {
+            "0": {
+                "device": "Drukknop Living Zetel",
+                "command": "press_once",
+                "inputParams": {
+                    "buttons": "lo"
+                }
+            },
+            "representation": "0"
+        },
+        "actions": [
+            {
+                "device": "Stopcontact Zetel Links",
+                "action": "switch_lamp",
+                "outputParams": {}
+            }
+        ]
+    },
+    "Stopcontact Zetel Rechts": {
+        "conditions": {
+            "0": {
+                "device": "Drukknop Living Zetel",
+                "command": "press_once",
+                "inputParams": {
+                    "buttons": "ro"
+                }
+            },
+            "representation": "0"
+        },
+        "actions": [
+            {
+                "device": "Stopcontact Zetel Rechts",
+                "action": "switch_lamp",
+                "outputParams": {}
+            }
+        ]
+    },
+    "Screenbediening sluiten": {
+        "conditions": {
+            "0": {
+                "device": "Drukknop Living Zetel",
+                "command": "press_twice",
+                "inputParams": {
+                    "buttons": "lo"
+                }
+            },
+            "representation": "0"
+        },
+        "actions": [
+            {
+                "device": "Screen",
+                "action": "close_shutter",
+                "outputParams": {}
+            }
+        ]
+    },
+    "Screenbediening openen": {
+        "conditions": {
+            "0": {
+                "device": "Drukknop Living Zetel",
+                "command": "press_twice",
+                "inputParams": {
+                    "buttons": "lb"
+                }
+            },
+            "representation": "0"
+        },
+        "actions": [
+            {
+                "device": "Screen",
+                "action": "open_shutter",
+                "outputParams": {}
+            }
+        ]
+    },
+    "Screenbediening stoppen": {
+        "conditions": {
+            "0": {
+                "device": "Drukknop Living Zetel",
+                "command": "press_once",
+                "inputParams": {
+                    "buttons": "lblo"
+                }
+            },
+            "representation": "0"
+        },
+        "actions": [
+            {
+                "device": "Screen",
+                "action": "stop",
+                "outputParams": {}
+            }
+        ]
+    },
+    "Garagepoort": {
+        "conditions": {
+            "0": {
+                "device": "Drukknop R Garage Deur",
+                "command": "press_once",
+                "inputParams": {}
+            },
+            "representation": "0"
+        },
+        "actions": [
+            {
+                "device": "Garagepoort",
+                "action": "trigger",
+                "outputParams": {}
+            }
+        ]
+    },
+    "wasplaatsverlichting sensor": {
+        "conditions": {
+            "0": {
+                "device": "Sensor wasplaats",
+                "deviceState": "true",
+                "inputParams": {}
+            },
+            "representation": "0"
+        },
+        "actions": [
+            {
+                "device": "Wasplaatsverlichting",
+                "deviceState": "On",
+                "outputParams": {}
+            }
+        ],
+        "returnWhenFalse": true
+    },
+    "WC Verlichting Beneden": {
+        "conditions": {
+            "0": {
+                "device": "Sensor WC Beneden",
+                "deviceState": "true",
+                "inputParams": {}
+            },
+            "representation": "0"
+        },
+        "actions": [
+            {
+                "device": "WC Verlichting Beneden",
+                "deviceState": "On",
+                "outputParams": {}
+            }
+        ],
+        "returnWhenFalse": true
+    },
+    "Nachtscene": {
+        "conditions": {
+            "0": {
+                "device": "Drukknop Bed Links Slaapkamer 1",
+                "command": "press_twice",
+                "inputParams": {
+                    "buttons": "r"
+                }
+            },
+            "1": {
+                "device": "Drukknop Bed Rechts Slaapkamer 1",
+                "command": "press_twice",
+                "inputParams": {
+                    "buttons": "l"
+                }
+            },
+            "2": {
+                "device": "Drukknop Trap Beneden",
+                "command": "press_twice",
+                "inputParams": {
+                    "buttons": "r"
+                }
+            },
+            "3": {
+                "device": "Drukknop Sas",
+                "command": "press_twice",
+                "inputParams": {}
+            },
+            "representation": "0+1+2+3"
+        },
+        "actions": [
+            {
+                "scene": "Nacht",
+                "action": "activate",
+                "outputParams": {}
+            }
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+[{
+    "name": "Nacht",
+    "sceneConfig": {
+        "Garageverlichting": "Off",
+        "Bureauverlichting": "Off",
+        "Livingverlichting": "Off",
+        "Keukenverlichting": "Off",
+		"Kelderverlichting": "Off",
+        "Wasplaatsverlichting": "Off",
+        "Sasverlichting": "Off",
+        "Inkomverlichting": "Off",
+        "WC Verlichting Beneden": "Off",
+        "Gangverlichting": "Off",
+        "Eetkamerverlichting": "Off"
+    }
+}]

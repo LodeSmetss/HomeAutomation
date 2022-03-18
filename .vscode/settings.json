@@ -1,0 +1,19 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\smets\\OneDrive\\Documents\\Programmeren\\Jars\\json-simple-1.1.1.jar",
+        "c:\\jar\\json-20200518.jar",
+        "c:\\jar\\json-simple-1.1.1.jar",
+        "c:\\jar\\jackson-core-2.13.2-javadoc.jar",
+        "c:\\jar\\jackson-databind-2.13.2-javadoc.jar",
+        "c:\\jar\\gson-2.9.0.jar",
+        "c:\\jar\\EasyModbusJava.jar",
+        "c:\\Users\\smets\\OneDrive\\Documents\\Programmeren\\Jars\\EasyModbusJava.jar",
+        "c:\\Users\\smets\\OneDrive\\Documents\\Programmeren\\Jars\\gson-2.9.0.jar",
+        "c:\\Users\\smets\\OneDrive\\Documents\\Programmeren\\Jars\\jackson-core-2.13.2-javadoc.jar",
+        "c:\\Users\\smets\\OneDrive\\Documents\\Programmeren\\Jars\\jackson-databind-2.13.2-javadoc.jar",
+        "c:\\Users\\smets\\OneDrive\\Documents\\Programmeren\\Jars\\json-20200518.jar"
+    ]
+}

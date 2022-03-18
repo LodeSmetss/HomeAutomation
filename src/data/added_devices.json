@@ -1,0 +1,749 @@
+{
+    "Sensor wasplaats": {
+        "deviceDir": "\\knx\\sensor\\Algemeen",
+        "group_address": "0/1/0",
+        "location": [
+            "Wasplaats"
+        ]
+    },
+    "Sensor WC Beneden": {
+        "deviceDir": "\\knx\\sensor\\Algemeen",
+        "group_address": "0/1/1",
+        "location": [
+            "WC Beneden"
+        ]
+    },
+    "wago1": {
+        "deviceDir": "\\wago\\veldbuscoupler\\D750_362",
+        "host": "192.168.0.24",
+        "port": 502,
+        "nrInputModules": 7,
+        "nrOutputModules": 4,
+        "location": [
+            "Kelder"
+        ]
+    },
+    "Drukknop Wasplaats Spiegel": {
+        "deviceDir": "\\ioAlgemeen\\drukknop\\DrukknopEnkel",
+        "parent": "wago1",
+        "ioStartAddress": 1,
+        "location": [
+            "Wasplaats"
+        ]
+    },
+    "Drukknop Wasplaats Centraal": {
+        "deviceDir": "\\ioAlgemeen\\drukknop\\DrukknopViervoudig",
+        "parent": "wago1",
+        "ioStartAddress": 2,
+        "location": [
+            "Wasplaats"
+        ]
+    },
+    "Drukknop Garage Deur": {
+        "deviceDir": "\\ioAlgemeen\\drukknop\\DrukknopEnkel",
+        "parent": "wago1",
+        "ioStartAddress": 6,
+        "location": [
+            "Garage"
+        ]
+    },
+    "Drukknop Sas": {
+        "deviceDir": "\\ioAlgemeen\\drukknop\\DrukknopEnkel",
+        "parent": "wago1",
+        "ioStartAddress": 7,
+        "location": [
+            "Sas"
+        ]
+    },
+    "Drukknop Keuken": {
+        "deviceDir": "\\ioAlgemeen\\drukknop\\DrukknopViervoudig",
+        "parent": "wago1",
+        "ioStartAddress": 8,
+        "location": [
+            "Keuken"
+        ]
+    },
+    "Drukknop Eetkamer Raam": {
+        "deviceDir": "\\ioAlgemeen\\drukknop\\DrukknopViervoudig",
+        "parent": "wago1",
+        "ioStartAddress": 12,
+        "location": [
+            "Keuken",
+            "Eetkamer"
+        ]
+    },
+    "Drukknop Keldertrap": {
+        "deviceDir": "\\ioAlgemeen\\drukknop\\DrukknopEnkel",
+        "parent": "wago1",
+        "ioStartAddress": 16,
+        "location": [
+            "Kelder"
+        ]
+    },
+    "Drukknop Centraal": {
+        "deviceDir": "\\ioAlgemeen\\drukknop\\DrukknopViervoudig",
+        "parent": "wago1",
+        "ioStartAddress": 17,
+        "location": [
+            "Keuken",
+            "Eetkamer",
+            "Living"
+        ]
+    },
+    "Drukknop Trap Beneden": {
+        "deviceDir": "\\ioAlgemeen\\drukknop\\DrukknopDubbel",
+        "parent": "wago1",
+        "ioStartAddress": 21,
+        "location": [
+            "Living"
+        ]
+    },
+    "Drukknop Bureau": {
+        "deviceDir": "\\ioAlgemeen\\drukknop\\DrukknopDubbel",
+        "parent": "wago1",
+        "ioStartAddress": 23,
+        "location": [
+            "Bureau"
+        ]
+    },
+    "Drukknop Living Zetel": {
+        "deviceDir": "\\ioAlgemeen\\drukknop\\DrukknopViervoudig",
+        "parent": "wago1",
+        "ioStartAddress": 25,
+        "location": [
+            "Living"
+        ]
+    },
+    "Drukknop Garage Poort": {
+        "deviceDir": "\\ioAlgemeen\\drukknop\\DrukknopEnkel",
+        "parent": "wago1",
+        "ioStartAddress": 29,
+        "location": [
+            "Garage"
+        ]
+    },
+    "Drukknop Trap Boven": {
+        "deviceDir": "\\ioAlgemeen\\drukknop\\DrukknopDubbel",
+        "parent": "wago1",
+        "ioStartAddress": 30,
+        "location": [
+            "Gang"
+        ]
+    },
+    "Drukknop Slaapkamer 1": {
+        "deviceDir": "\\ioAlgemeen\\drukknop\\DrukknopViervoudig",
+        "parent": "wago1",
+        "ioStartAddress": 32,
+        "location": [
+            "Slaapkamer 1"
+        ]
+    },
+    "Drukknop Bed Links Slaapkamer 1": {
+        "deviceDir": "\\ioAlgemeen\\drukknop\\DrukknopDubbel",
+        "parent": "wago1",
+        "ioStartAddress": 36,
+        "location": [
+            "Slaapkamer 1"
+        ]
+    },
+    "Drukknop Bed Rechts Slaapkamer 1": {
+        "deviceDir": "\\ioAlgemeen\\drukknop\\DrukknopDubbel",
+        "parent": "wago1",
+        "ioStartAddress": 38,
+        "location": [
+            "Slaapkamer 1"
+        ]
+    },
+    "Drukknop Terras": {
+        "deviceDir": "\\ioAlgemeen\\drukknop\\DrukknopDubbel",
+            "parent": "wago1",
+            "ioStartAddress": 40,
+            "location": [
+                "Terras"
+            ]
+    },
+    "Drukknop Badkamer": {
+        "deviceDir": "\\ioAlgemeen\\drukknop\\DrukknopViervoudig",
+        "parent": "wago1",
+        "ioStartAddress": 42,
+        "location": [
+            "Badkamer"
+        ]
+    },
+    "Drukknop Bed Slaapkamer 2": {
+        "deviceDir": "\\ioAlgemeen\\drukknop\\DrukknopDubbel",
+        "parent": "wago1",
+        "ioStartAddress": 46,
+        "location": [
+            "Slaapkamer 2"
+        ]
+    },
+    "Drukknop Badkamer Spiegel": {
+        "deviceDir": "\\ioAlgemeen\\drukknop\\DrukknopDubbel",
+        "parent": "wago1",
+        "ioStartAddress": 48,
+        "location": [
+            "Badkamer"
+        ]
+    },
+    "Drukknop Bureau Boven": {
+        "deviceDir": "\\ioAlgemeen\\drukknop\\DrukknopViervoudig",
+        "parent": "wago1",
+        "ioStartAddress": 50,
+        "location": [
+            "Bureau Boven"
+        ]
+    },
+    "Drukknop Bed Slaapkamer 4": {
+        "deviceDir": "\\ioAlgemeen\\drukknop\\DrukknopDubbel",
+        "parent": "wago1",
+        "ioStartAddress": 54,
+        "location": [
+            "Slaapkamer 4"
+        ]
+    },
+    "Drukknop Slaapkamer 4": {
+        "deviceDir": "\\ioAlgemeen\\drukknop\\DrukknopViervoudig",
+        "parent": "wago1",
+        "ioStartAddress": 56,
+        "location": [
+            "Slaapkamer 4"
+        ]
+    },
+    "Drukknop Slaapkamer 2": {
+        "deviceDir": "\\ioAlgemeen\\drukknop\\DrukknopViervoudig",
+        "parent": "wago1",
+        "ioStartAddress": 60,
+        "location": [
+            "Slaapkamer 2"
+        ]
+    },
+    "Drukknop Slaapkamer 3": {
+        "deviceDir": "\\ioAlgemeen\\drukknop\\DrukknopViervoudig",
+        "parent": "wago1",
+        "ioStartAddress": 64,
+        "location": [
+            "Slaapkamer 3"
+        ]
+    },
+    "Drukknop Bed Slaapkamer 3": {
+        "deviceDir": "\\ioAlgemeen\\drukknop\\DrukknopDubbel",
+        "parent": "wago1",
+        "ioStartAddress": 68,
+        "location": [
+            "Slaapkamer 3"
+        ]
+    },
+    "Drukknop Repetitiekot": {
+        "deviceDir": "\\ioAlgemeen\\drukknop\\DrukknopViervoudig",
+        "parent": "wago1",
+        "ioStartAddress": 70,
+        "location": [
+            "Repetitiekot"
+        ]
+    },
+    "Drukknop R Garage Deur": {
+        "deviceDir": "\\ioAlgemeen\\drukknop\\DrukknopEnkel",
+        "parent": "wago1",
+        "ioStartAddress": 74,
+        "location": [
+            "Garage"
+        ]
+    },
+    "Keukenverlichting": {
+        "deviceDir": "\\ioAlgemeen\\Lamp",
+        "parent": "wago1",
+        "ioAddress": 1,
+        "location": [
+            "Keuken"
+        ]
+    },
+    "Sasverlichting": {
+        "deviceDir": "\\ioAlgemeen\\Lamp",
+        "parent": "wago1",
+        "ioAddress": 2,
+        "location": [
+            "Sas"
+        ]
+    },
+    "Inkomverlichting": {
+        "deviceDir": "\\ioAlgemeen\\Lamp",
+        "parent": "wago1",
+        "ioAddress": 3,
+        "location": [
+            "Inkom"
+        ]
+    },
+    "Bureauverlichting": {
+        "deviceDir": "\\ioAlgemeen\\Lamp",
+        "parent": "wago1",
+        "ioAddress": 4,
+        "location": [
+            "Bureau"
+        ]
+    },
+    "Garageverlichting": {
+        "deviceDir": "\\ioAlgemeen\\Lamp",
+        "parent": "wago1",
+        "ioAddress": 5,
+        "location": [
+            "Garage"
+        ]
+    },
+    "WC Verlichting Beneden": {
+        "deviceDir": "\\ioAlgemeen\\Lamp",
+        "parent": "wago1",
+        "ioAddress": 6,
+        "location": [
+            "WC Beneden"
+        ]
+    },
+    "Voorgevelverlichting": {
+        "deviceDir": "\\ioAlgemeen\\Lamp",
+        "parent": "wago1",
+        "ioAddress": 7,
+        "location": [
+            "Voorgevel"
+        ]
+    },
+    "Stopcontact Bureau": {
+        "deviceDir": "\\ioAlgemeen\\Lamp",
+        "parent": "wago1",
+        "ioAddress": 8,
+        "location": [
+            "Bureau"
+        ]
+    },
+    "Stopcontact Zetel Links": {
+        "deviceDir": "\\ioAlgemeen\\Lamp",
+        "parent": "wago1",
+        "ioAddress": 9,
+        "location": [
+            "Living"
+        ]
+    },
+    "Stopcontact Zetel Rechts": {
+        "deviceDir": "\\ioAlgemeen\\Lamp",
+        "parent": "wago1",
+        "ioAddress": 10,
+        "location": [
+            "Living"
+        ]
+    },
+    "Verlichting Slaapkamer 1": {
+        "deviceDir": "\\ioAlgemeen\\Lamp",
+        "parent": "wago1",
+        "ioAddress": 11,
+        "location": [
+            "Slaapkamer 1"
+        ]
+    },
+    "Verlichting Dressing": {
+        "deviceDir": "\\ioAlgemeen\\Lamp",
+        "parent": "wago1",
+        "ioAddress": 12,
+        "location": [
+            "Slaapkamer 1"
+        ]
+    },
+    "Verlichting Slaapkamer 2": {
+        "deviceDir": "\\ioAlgemeen\\Lamp",
+        "parent": "wago1",
+        "ioAddress": 13,
+        "location": [
+            "Slaapkamer 2"
+        ]
+    },
+    "Verlichting Slaapkamer 3": {
+        "deviceDir": "\\ioAlgemeen\\Lamp",
+        "parent": "wago1",
+        "ioAddress": 14,
+        "location": [
+            "Slaapkamer 3"
+        ]
+    },
+    "Verlichting Slaapkamer 4": {
+        "deviceDir": "\\ioAlgemeen\\Lamp",
+        "parent": "wago1",
+        "ioAddress": 15,
+        "location": [
+            "Slaapkamer 4"
+        ]
+    },
+    "WC Verlichting Boven": {
+        "deviceDir": "\\ioAlgemeen\\Lamp",
+        "parent": "wago1",
+        "ioAddress": 16,
+        "location": [
+            "WC Boven"
+        ]
+    },
+    "Bureauverlichting Boven": {
+        "deviceDir": "\\ioAlgemeen\\Lamp",
+        "parent": "wago1",
+        "ioAddress": 17,
+        "location": [
+            "Bureau Boven"
+        ]
+    },
+    "Gangverlichting": {
+        "deviceDir": "\\ioAlgemeen\\Lamp",
+        "parent": "wago1",
+        "ioAddress": 18,
+        "location": [
+            "Gang"
+        ]
+    },
+    "Trapverlichting": {
+        "deviceDir": "\\ioAlgemeen\\Lamp",
+        "parent": "wago1",
+        "ioAddress": 19,
+        "location": [
+            "Trap"
+        ]
+    },
+    "Stopcontact Slaapkamer 1 Links": {
+        "deviceDir": "\\ioAlgemeen\\Lamp",
+        "parent": "wago1",
+        "ioAddress": 20,
+        "location": [
+            "Slaapkamer 1"
+        ]
+    },
+    "Stopcontact Slaapkamer 1 Rechts": {
+        "deviceDir": "\\ioAlgemeen\\Lamp",
+        "parent": "wago1",
+        "ioAddress": 21,
+        "location": [
+            "Slaapkamer 1"
+        ]
+    },
+    "Stopcontact Slaapkamer 2": {
+        "deviceDir": "\\ioAlgemeen\\Lamp",
+        "parent": "wago1",
+        "ioAddress": 22,
+        "location": [
+            "Slaapkamer 2"
+        ]
+    },
+    "Stopcontact Slaapkamer 3": {
+        "deviceDir": "\\ioAlgemeen\\Lamp",
+        "parent": "wago1",
+        "ioAddress": 23,
+        "location": [
+            "Slaapkamer 3"
+        ]
+    },
+    "Stopcontact Slaapkamer 4": {
+        "deviceDir": "\\ioAlgemeen\\Lamp",
+        "parent": "wago1",
+        "ioAddress": 24,
+        "location": [
+            "Slaapkamer 4"
+        ]
+    },
+    "Verlichting Repetitiekot": {
+        "deviceDir": "\\ioAlgemeen\\Lamp",
+        "parent": "wago1",
+        "ioAddress": 26,
+        "location": [
+            "Repetitiekot"
+        ]
+    },
+    "Badkamerverlichting": {
+        "deviceDir": "\\ioAlgemeen\\Lamp",
+        "parent": "wago1",
+        "ioAddress": 27,
+        "location": [
+            "Badkamer"
+        ]
+    },
+    "Wasplaatsverlichting": {
+        "deviceDir": "\\ioAlgemeen\\Lamp",
+        "parent": "wago1",
+        "ioAddress": 29,
+        "location": [
+            "Wasplaats"
+        ]
+    },
+    "Kelderverlichting": {
+        "deviceDir": "\\ioAlgemeen\\Lamp",
+        "parent": "wago1",
+        "ioAddress": 61,
+        "location": [
+            "Kelder"
+        ]
+    },
+    "Badkamerverlichting Spiegel": {
+        "deviceDir": "\\ioAlgemeen\\Lamp",
+        "parent": "wago1",
+        "ioAddress": 62,
+        "location": [
+            "Badkamer"
+        ]
+    },
+    "Rolluik Slaapkamer 1": {
+        "deviceDir": "\\ioAlgemeen\\Rolluik",
+        "parent": "wago1",
+        "ioAddress": 42,
+        "closingTime": 15,
+        "location": [
+            "Slaapkamer 1"
+        ]
+    },
+    "Rolluik Slaapkamer 2": {
+        "deviceDir": "\\ioAlgemeen\\Rolluik",
+        "parent": "wago1",
+        "ioAddress": 44,
+        "closingTime": 15,
+        "location": [
+            "Slaapkamer 2"
+        ]
+    },
+    "Rolluik Slaapkamer 3": {
+        "deviceDir": "\\ioAlgemeen\\Rolluik",
+        "parent": "wago1",
+        "ioAddress": 46,
+        "closingTime": 15,
+        "location": [
+            "Slaapkamer 3"
+        ]
+    },
+    "Rolluik Slaapkamer 4": {
+        "deviceDir": "\\ioAlgemeen\\Rolluik",
+        "parent": "wago1",
+        "ioAddress": 48,
+        "closingTime": 30,
+        "location": [
+            "Slaapkamer 4"
+        ]
+    },
+    "Livingverlichting": {
+        "deviceDir": "\\ioAlgemeen\\Lamp",
+        "ioAddress": 32,
+        "location": [
+            "Living"
+        ],
+        "parent": "wago1"
+    },
+    "Eetkamerverlichting": {
+        "deviceDir": "\\ioAlgemeen\\Lamp",
+        "ioAddress": 33,
+        "location": [
+            "Eetkamer"
+        ],
+        "parent": "wago1"
+    },
+    "Screen": {
+        "deviceDir": "\\ioAlgemeen\\Rolluik",
+        "ioAddress": 63,
+        "location": [
+            "Living"
+        ],
+        "closingTime": 55,
+        "parent": "wago1"
+    },
+    "Garagepoort": {
+        "deviceDir": "\\ioAlgemeen\\Poort",
+        "ioAddress": 60,
+        "location": [
+            "Garage"
+        ],
+        "parent": "wago1"
+    },
+    "Ventilator kelder": {
+        "deviceDir": "\\ioAlgemeen\\Lamp",
+        "parent": "wago1",
+        "ioAddress": 37,
+        "location": [
+            "Kelder"
+        ]
+    },
+    "Achterdeur": {
+        "deviceDir": "\\ioAlgemeen\\deur",
+        "parent": "wago1",
+        "ioAddress": 75,
+        "location": [
+            "Sas"
+        ]
+    },
+    "Garagedeur": {
+        "deviceDir": "\\ioAlgemeen\\deur",
+        "parent": "wago1",
+        "ioAddress": 76,
+        "location": [
+            "Berging",
+            "Garage"
+        ]
+    },
+    "Kelderdeur": {
+        "deviceDir": "\\ioAlgemeen\\deur",
+        "parent": "wago1",
+        "ioAddress": 77,
+        "location": [
+            "Berging",
+            "Kelder"
+        ]
+    },
+    "Deur Sas Berging": {
+        "deviceDir": "\\ioAlgemeen\\deur",
+        "parent": "wago1",
+        "ioAddress": 78,
+        "location": [
+            "Sas",
+            "Berging"
+        ]
+    },
+    "Keukendeur": {
+        "deviceDir": "\\ioAlgemeen\\deur",
+        "parent": "wago1",
+        "ioAddress": 89,
+        "location": [
+            "Sas",
+            "Keuken"
+        ]
+    },
+    "Bureaudeur": {
+        "deviceDir": "\\ioAlgemeen\\deur",
+        "parent": "wago1",
+        "ioAddress": 80,
+        "location": [
+            "Living",
+            "Bureau"
+        ]
+    },
+    "Voordeur": {
+        "deviceDir": "\\ioAlgemeen\\deur",
+        "parent": "wago1",
+        "ioAddress": 81,
+        "location": [
+            "Inkom"
+        ]
+    },
+    "Deur Slaapkamer 1": {
+        "deviceDir": "\\ioAlgemeen\\deur",
+        "parent": "wago1",
+        "ioAddress": 82,
+        "location": [
+            "Slaapkamer 1",
+            "Gang"
+        ]
+    },
+    "Deur Grote Slaapkamer": {
+        "deviceDir": "\\ioAlgemeen\\deur",
+        "parent": "wago1",
+        "ioAddress": 83,
+        "location": [
+            "Grote Slaapkamer",
+            "Gang"
+        ]
+    },
+    "Deur Badkamer": {
+        "deviceDir": "\\ioAlgemeen\\deur",
+        "parent": "wago1",
+        "ioAddress": 84,
+        "location": [
+            "Badkamer",
+            "Gang"
+        ]
+    },
+    "Deur Kleine Slaapkamer": {
+        "deviceDir": "\\ioAlgemeen\\deur",
+        "parent": "wago1",
+        "ioAddress": 85,
+        "location": [
+            "Kleine Slaapkamer",
+            "Gang"
+        ]
+    },
+    "Deur Lange Slaapkamer": {
+        "deviceDir": "\\ioAlgemeen\\deur",
+        "parent": "wago1",
+        "ioAddress": 86,
+        "location": [
+            "Lange Slaapkamer",
+            "Gang"
+        ]
+    },
+    "Deur WC Boven": {
+        "deviceDir": "\\ioAlgemeen\\deur",
+        "parent": "wago1",
+        "ioAddress": 87,
+        "location": [
+            "WC Boven",
+            "Gang"
+        ]
+    },
+    "Schuifraam": {
+        "deviceDir": "\\ioAlgemeen\\deur",
+        "parent": "wago1",
+        "ioAddress": 88,
+        "location": [
+            "Keuken"
+        ]
+    },
+    "Raam Living": {
+        "deviceDir": "\\ioAlgemeen\\deur",
+        "parent": "wago1",
+        "ioAddress": 89,
+        "location": [
+            "Living"
+        ]
+    },
+    "Raam Grote Slaapkamer": {
+        "deviceDir": "\\ioAlgemeen\\deur",
+        "parent": "wago1",
+        "ioAddress": 90,
+        "location": [
+            "Grote Slaapkamer"
+        ]
+    },
+    "Raam Bureau": {
+        "deviceDir": "\\ioAlgemeen\\deur",
+        "parent": "wago1",
+        "ioAddress": 91,
+        "location": [
+            "Bureau"
+        ]
+    },
+    "Raam Lange Slaapkamer": {
+        "deviceDir": "\\ioAlgemeen\\deur",
+        "parent": "wago1",
+        "ioAddress": 92,
+        "location": [
+            "Lange Slaapkamer"
+        ]
+    },
+    "Raam Rechts Slaapkamer 1": {
+        "deviceDir": "\\ioAlgemeen\\deur",
+        "parent": "wago1",
+        "ioAddress": 93,
+        "location": [
+            "Slaapkamer 1"
+        ]
+    },
+    "Raam Badkamer": {
+        "deviceDir": "\\ioAlgemeen\\deur",
+        "parent": "wago1",
+        "ioAddress": 94,
+        "location": [
+            "Badkamer"
+        ]
+    },
+    "Raam Kleine Slaapkamer": {
+        "deviceDir": "\\ioAlgemeen\\deur",
+        "parent": "wago1",
+        "ioAddress": 95,
+        "location": [
+            "Kleine Slaapkamer"
+        ]
+    },
+    "Raam Links Slaapkamer 1": {
+        "deviceDir": "\\ioAlgemeen\\deur",
+        "parent": "wago1",
+        "ioAddress": 96,
+        "location": [
+            "Slaapkamer 1"
+        ]
+    }
+}
