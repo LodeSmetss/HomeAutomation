@@ -14,5 +14,5 @@ Hence, this version lacks proper exception handling and the ability to communica
 # Compile
 
 To compile on the commandline:
-javac -cp bin:gson.jar src/HomeAutomation.java
+javac -cp bin:gson.jar --enable-preview --release 17 src/HomeAutomation.java
 
